@@ -79,6 +79,14 @@ a {
     display: flex;
     justify-content: space-evenly
 }
+.content1 img{
+    width: 100%;
+    max-height: 300px;
+    max-width:  300px;
+    
+    
+    
+}
 
 .leftcontent1 {
     display: flex;
@@ -123,10 +131,32 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 120px;
+    
+    
+    
+    
+   
+
+}
+.imgbox img{
+
+max-height: 200px;  
+width: 100%;
+max-width: 300px;
+
+
+
+
+
 
 
 }
+.imgbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    transform: translateY(-5px);
+}
+
 .content3{
     display: flex;
     background-color: wheat;
@@ -142,6 +172,7 @@ img {
     align-self: center;
     min-width: 50%;
     font-size: 20px;
+   
 }
 .commenter{
     display: flex;
@@ -152,9 +183,10 @@ img {
 .content4{
     display: flex;
     justify-content: space-evenly;
-    background-color: moccasin;
+    background-color: var(--espresso);
     margin: 30PX;
     border-radius: 20px;
+    color: var(--cream);
 
 }
 .content4left{
@@ -175,6 +207,8 @@ img {
     justify-content: center;
     background-color: var(--coffee);
     color: var(--foam);
+    border-radius: 5px;
+    
 
 }
 
