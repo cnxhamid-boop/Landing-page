@@ -1,18 +1,80 @@
+:root {
+    --espresso: #2b1d16;
+    --coffee: #4b2e2a;
+    --latte: #d7b899;
+    --cream: #f5f1e8;
+    --foam: #ffffff;
+}
+
+
+
+
+
+
+body{
+    font-family:"Playfair Display", serif;
+   
+     background-color: var(--latte);
+    color: var(--espresso);
+  
+
+
+
+
+
+}
+button{
+    cursor: pointer;
+    border: none;
+      background-color: var(--coffee);
+      color: var(--foam);
+      border-radius: 5px;
+      padding: 10px 30px;
+      
+}
+button:hover{
+    background-color: aqua;
+}
+
+
+
+
+
 .header {
-    background-color: chocolate;
+    background-color:var(--espresso);
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: var(--cream);
+    padding: 20px 50px;
+
 }
 
-.headerleft {
+.headerright {
     gap: 10px;
     display: flex;
-
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    
+    
+    
+}
+.headerleft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 1000;
+}
+a {
+    color: white; 
+    text-decoration: none;
 }
 
 .content1 {
-    background-color: chocolate;
+    background-color: var(--latte);
     padding: 20px;
     display: flex;
     justify-content: space-evenly
@@ -24,6 +86,7 @@
     justify-content: center;
     flex-direction: column;
     max-width: 350px;
+    
 
 }
 
@@ -38,7 +101,7 @@ img {
 }
 
 .content2 {
-    background-color: whitesmoke;
+    background-color: var(--cream);
     padding: 20px;
 }
 
@@ -78,6 +141,7 @@ img {
     flex-direction: column;
     align-self: center;
     min-width: 50%;
+    font-size: 20px;
 }
 .commenter{
     display: flex;
@@ -90,6 +154,7 @@ img {
     justify-content: space-evenly;
     background-color: moccasin;
     margin: 30PX;
+    border-radius: 20px;
 
 }
 .content4left{
@@ -108,7 +173,8 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: darksalmon;
+    background-color: var(--coffee);
+    color: var(--foam);
 
 }
 
